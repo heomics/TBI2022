@@ -38,7 +38,7 @@ plot_grid(p3, p4)
 
 DefaultAssay(Mural.seurat.integrated)<-"RNA"
 VlnPlot(Mural.seurat.integrated, features = c("nCount_RNA","nFeature_RNA"),  pt.size = 0.01, ncol = 2)
-FeaturePlot(Mural.seurat.integrated,features = c("PDGFRA"))
+
 
 
 
